@@ -1,5 +1,5 @@
 /*TABLILLA CAITAN*/
-.tbmellu {
+.tbjeno {
   border-left: 1px solid var(--orador);
   padding: 30px;
   width: 450px;
@@ -7,7 +7,7 @@
   margin: auto;
 }
 
-.tbmellu .tbtt {
+.tbjeno .tbtt {
   text-align: center;
   font-family: 'Raleway';
   text-transform: uppercase;
@@ -18,20 +18,20 @@
   margin: 30px 0px 10px;
 }
 
-.tbmellu .tbtt::first-letter {
+.tbjeno .tbtt::first-letter {
   color: var(--orador);
 }
 
-.tbmellu .tbrl {
+.tbjeno .tbrl {
   padding: 25px;
 }
 
-.tbmellu .tbrl span {
+.tbjeno .tbrl span {
   color: var(--orador);
   font-weight: 600;
 }
 
-.tbmellu .tbdt {
+.tbjeno .tbdt {
   font-family: 'Source Code Pro';
   text-transform: uppercase;
   font-size: 10px;
@@ -40,20 +40,20 @@
   margin-left: -5px;
 }
 
-.tbmellu .tbdt i {
+.tbjeno .tbdt i {
   color: var(--orador);
   font-size: 8px;
   margin-left: 5px;
 }
 
 /*BAÚL CAITAN*/
-.marcobaulmellu {
+.marcobauljeno {
   width: 900px;
   height: 700px;
   margin: auto;
 }
 
-.baulmellu {
+.bauljeno {
   width: 900px;
   height: 700px;
   background-image: url('https://i.imgur.com/JvWcHGO.png');
@@ -62,7 +62,7 @@
   overflow: hidden;
 }
 
-.baulmellu .nombremellu {
+.bauljeno .nombrejeno {
   font-family: 'Raleway';
   position: absolute;
   width: 660px;
@@ -78,7 +78,7 @@
   text-align: left;
 }
 
-.baulmellu .indexmellu {
+.bauljeno .indexjeno {
   background: rgba(000,000,000,0.9);
   width: 30px;
   padding: 20px;
@@ -90,7 +90,7 @@
   position: absolute;
 }
 
-.baulmellu .indexmellu a {
+.bauljeno .indexjeno a {
   text-decoration: none;
   color: var(--orador);
   margin-top: 40px;
@@ -98,12 +98,12 @@
   transition: 0.5s;
 }
 
-.baulmellu .indexmellu a:hover {
+.bauljeno .indexjeno a:hover {
   color: var(--grey);
   transition: 0.5s;
 }
 
-.baulmellu .hovmellu {
+.bauljeno .hovjeno {
   width: 730px;
   height: 700px;
   position: absolute;
@@ -111,7 +111,7 @@
   overflow: hidden;
 }
 
-.baulmellu .cuerpomellu {
+.bauljeno .cuerpojeno {
   width: 630px;
   height: 600px;
   padding: 50px;
@@ -122,19 +122,19 @@
   transition: 1s ease-out;
 }
 
-.hovmellu:hover .cuerpomellu {
+.hovjeno:hover .cuerpojeno {
   margin-left: 0px;
   transition: 1s ease-in;
 }
 
-.baulmellu .statsmellu {
+.bauljeno .statsjeno {
   width: 630px;
   height: 100px;
   position: absolute;
   margin-top: 300px;
 }
 
-.baulmellu .statsmellu div {
+.bauljeno .statsjeno div {
   width: 90px;
   text-align: center;
   display: inline-block;
@@ -144,7 +144,7 @@
   line-height: 50px;
 }
 
-.baulmellu .statsmellu span {
+.bauljeno .statsjeno span {
   display: block;
   font-size: 14px;
   color: var(--grey);
@@ -155,7 +155,7 @@
   text-shadow: 1px 1px 0px rgba(0,0,0,0.5), 1px -1px 0px rgba(0,0,0,0.5), -1px 1px 0px rgba(0,0,0,0.5), -1px -1px 0px rgba(0,0,0,0.5);
 }
 
-.baulmellu .habsmellu {
+.bauljeno .habsjeno {
   padding: 0px 10px;
   overflow-y: auto;
   width: 608px;
@@ -168,7 +168,7 @@
   margin-top: 400px;
 }
 
-.baulmellu .habsmellu strong {
+.bauljeno .habsjeno strong {
   color: var(--orador);
   text-transform: uppercase;
   font-family: 'Raleway';
@@ -176,11 +176,11 @@
   font-weight: 900;
 }
 
-.baulmellu .habsmellu::-webkit-scrollbar-thumb {
+.bauljeno .habsjeno::-webkit-scrollbar-thumb {
   background-color: var(--orador);
 }
 
-.baulmellu .datsmellu {
+.bauljeno .datsjeno {
   position: absolute;
   width: 200px;
   line-height: 30px;
