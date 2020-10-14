@@ -1,52 +1,4 @@
-/*TABLILLA JENO*/
-.tbjeno {
-  border-left: 1px solid var(--orador);
-  padding: 30px;
-  width: 450px;
-  background: #080808;
-  margin: auto;
-}
-
-.tbjeno .tbtt {
-  text-align: center;
-  font-family: 'Raleway';
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 22px;
-  color: #bfbfbf;
-  letter-spacing: 1px;
-  margin: 30px 0px 10px;
-}
-
-.tbjeno .tbtt::first-letter {
-  color: var(--orador);
-}
-
-.tbjeno .tbrl {
-  padding: 25px;
-}
-
-.tbjeno .tbrl span {
-  color: var(--orador);
-  font-weight: 600;
-}
-
-.tbjeno .tbdt {
-  font-family: 'Source Code Pro';
-  text-transform: uppercase;
-  font-size: 10px;
-  line-height: 14px;
-  margin-top: 10px;
-  margin-left: -5px;
-}
-
-.tbjeno .tbdt i {
-  color: var(--orador);
-  font-size: 8px;
-  margin-left: 5px;
-}
-
-/*BAÚL JENO*/
+/*BAÚL CAITAN*/
 .marcobauljeno {
   width: 900px;
   height: 700px;
@@ -56,7 +8,7 @@
 .bauljeno {
   width: 900px;
   height: 700px;
-  background-image: url('https://i.imgur.com/JvWcHGO.png');
+  background-image: url('https://i.imgur.com/TpJPEAr.png');
   position: absolute;
   line-height: 0px;
   overflow: hidden;
