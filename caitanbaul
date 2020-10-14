@@ -1,0 +1,195 @@
+/*TABLILLA JENO*/
+.tbjeno {
+  border-left: 1px solid var(--orador);
+  padding: 30px;
+  width: 450px;
+  background: #080808;
+  margin: auto;
+}
+
+.tbjeno .tbtt {
+  text-align: center;
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 22px;
+  color: #bfbfbf;
+  letter-spacing: 1px;
+  margin: 30px 0px 10px;
+}
+
+.tbjeno .tbtt::first-letter {
+  color: var(--orador);
+}
+
+.tbjeno .tbrl {
+  padding: 25px;
+}
+
+.tbjeno .tbrl span {
+  color: var(--orador);
+  font-weight: 600;
+}
+
+.tbjeno .tbdt {
+  font-family: 'Source Code Pro';
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 14px;
+  margin-top: 10px;
+  margin-left: -5px;
+}
+
+.tbjeno .tbdt i {
+  color: var(--orador);
+  font-size: 8px;
+  margin-left: 5px;
+}
+
+/*BAÚL JENO*/
+.marcobauljeno {
+  width: 900px;
+  height: 700px;
+  margin: auto;
+}
+
+.bauljeno {
+  width: 900px;
+  height: 700px;
+  background-image: url('https://i.imgur.com/JvWcHGO.png');
+  position: absolute;
+  line-height: 0px;
+  overflow: hidden;
+}
+
+.bauljeno .nombrejeno {
+  font-family: 'Raleway';
+  position: absolute;
+  width: 660px;
+  padding: 0px 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 70px;
+  line-height: 50px;
+  transform: rotate(-90deg);
+  margin: 325px -300px;
+  color: var(--orador);
+  text-shadow: 1px 1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000, -1px -1px 2px #000;
+  text-align: left;
+}
+
+.bauljeno .indexjeno {
+  background: rgba(000,000,000,0.9);
+  width: 30px;
+  padding: 20px;
+  height: 660px;
+  margin-left: 100px;
+  text-align: center;
+  font-size: 25px;
+  line-height: 25px;
+  position: absolute;
+}
+
+.bauljeno .indexjeno a {
+  text-decoration: none;
+  color: var(--orador);
+  margin-top: 40px;
+  display: block;
+  transition: 0.5s;
+}
+
+.bauljeno .indexjeno a:hover {
+  color: var(--grey);
+  transition: 0.5s;
+}
+
+.bauljeno .hovjeno {
+  width: 730px;
+  height: 700px;
+  position: absolute;
+  margin-left: 170px;
+  overflow: hidden;
+}
+
+.bauljeno .cuerpojeno {
+  width: 630px;
+  height: 600px;
+  padding: 50px;
+  background: rgba(000,000,000,0.7);
+  position: absolute;
+  margin-left: 900px;
+  border-left: 1px solid var(--orador);
+  transition: 1s ease-out;
+}
+
+.hovjeno:hover .cuerpojeno {
+  margin-left: 0px;
+  transition: 1s ease-in;
+}
+
+.bauljeno .statsjeno {
+  width: 630px;
+  height: 100px;
+  position: absolute;
+  margin-top: 300px;
+}
+
+.bauljeno .statsjeno div {
+  width: 90px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Source Code Pro';
+  font-size: 50px;
+  color: var(--orador);
+  line-height: 50px;
+}
+
+.bauljeno .statsjeno span {
+  display: block;
+  font-size: 14px;
+  color: var(--grey);
+  font-family: 'Raleway';
+  font-weight: 700;
+  line-height: 14px;
+  margin-top: -30px;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.5), 1px -1px 0px rgba(0,0,0,0.5), -1px 1px 0px rgba(0,0,0,0.5), -1px -1px 0px rgba(0,0,0,0.5);
+}
+
+.bauljeno .habsjeno {
+  padding: 0px 10px;
+  overflow-y: auto;
+  width: 608px;
+  height: 200px;
+  border-left: 1px solid var(--orador);
+  font-family: 'Source Code Pro';
+  font-size: 11px;
+  line-height: 14px;
+  position: absolute;
+  margin-top: 400px;
+}
+
+.bauljeno .habsjeno strong {
+  color: var(--orador);
+  text-transform: uppercase;
+  font-family: 'Raleway';
+  font-size: 10px;
+  font-weight: 900;
+}
+
+.bauljeno .habsjeno::-webkit-scrollbar-thumb {
+  background-color: var(--orador);
+}
+
+.bauljeno .datsjeno {
+  position: absolute;
+  width: 200px;
+  line-height: 30px;
+  font-size: 12px;
+  font-family: 'Raleway';
+  border-right: 1px solid var(--orador);
+  text-transform: uppercase;
+  text-align: right;
+  padding: 0px 10px;
+  font-weight: 500;
+  margin: 20px 401px;
+}
